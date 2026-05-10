@@ -37,19 +37,27 @@ STORE RESULT
 
 ## How to Set This Up Locally (Super Easy!)
 
-If you want to run this app on your own computer, just follow these simple steps:
+If you want to run this app on your own computer, just follow these simple steps from scratch:
 
-1. **Install Node.js:** Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
-2. **Open your terminal:** Open Command Prompt, PowerShell, or your code editor's terminal in this folder.
-3. **Install dependencies:** Type this command and hit Enter:
+1. **Install Git and Node.js:** Make sure you have [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) installed on your computer.
+2. **Open your terminal:** Open Command Prompt, PowerShell, or your code editor's terminal.
+3. **Clone the project:** Download the code to your computer by typing this command and hitting Enter:
+   ```bash
+   git clone https://github.com/mishrayush15/spcc-compiler.git
+   ```
+4. **Go into the project folder:** 
+   ```bash
+   cd spcc-compiler
+   ```
+5. **Install dependencies:** Type this command and hit Enter:
    ```bash
    npm install
    ```
-4. **Start the app:** Type this command and hit Enter:
+6. **Start the app:** Type this command and hit Enter:
    ```bash
    npm run dev
    ```
-5. **Open your browser:** Click the local link that appears in your terminal (usually `http://localhost:5173` or `http://localhost:5174`).
+7. **Open your browser:** Click the local link that appears in your terminal (usually `http://localhost:5173` or `http://localhost:5174`).
 
 ## Built With
 
